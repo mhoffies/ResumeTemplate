@@ -17,6 +17,8 @@
 \RequirePackage{titlesec}
 \RequirePackage[T1]{fontenc}
 \RequirePackage[default,type1]{raleway}
+\RequirePackage{enumitem}
+\RequirePackage{setspace}
 
 %% Colors
 \definecolor{taupegrey}{HTML}{888989}
@@ -57,5 +59,8 @@
 \newcommand{\contact}[5]{
   \centerline{#1 {\large\textperiodcentered} #2 {\large\textperiodcentered} #3 {\Large} #4 \ {\Large} #5}
 }
+
+%% change bullet point style
+\renewcommand{\labelitemi}{$\diamond$}
 
 \endinput
